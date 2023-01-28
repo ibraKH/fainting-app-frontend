@@ -5,7 +5,7 @@
 ##### A device used to detect fainting cases inside elevators and send help if found, and Website app to display all detected cases to the admin.
 
 #### Software of this project conatins :
-- BackEnd , website server
+- [BackEnd](https://github.com/ibraKH/fainting-app-backend)
 - FrontEnd 
 - Arduino uno code
 
