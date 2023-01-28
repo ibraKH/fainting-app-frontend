@@ -1,0 +1,81 @@
+@font-face{font-family:Comfortaa;src:url("../fonts/Comfortaa-Regular.ttf");font-display:swap}
+@font-face{font-family:El Messiri;src:url("../fonts/ElMessiri-Regular.ttf");font-display:swap}
+body{
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+.wave{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+.wave img{
+    position: relative;
+    margin-bottom: -15px;
+    min-width: 100%;
+}
+.vectorContainer{
+    position: absolute;
+    bottom: 50px;
+    left: 150px;
+}
+.textContainer{
+    padding-right: 15px;
+    top: 20%;
+    width: 50%;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    direction: rtl;
+    font-family:El Messiri;
+    color: #181818;
+    z-index: 2;
+}
+.textContainer h3{
+    font-weight: normal;
+}
+.textContainer h1{
+    font-weight: normal;
+}
+.bottomText{
+    margin-top: 50px;
+}
+button{
+    background-color: #29303A;
+    color: #75D9AB;
+    border-radius: 10px;
+    font-family:El Messiri;
+    font-size: 15px;
+    width: 170px;
+    cursor: pointer;
+}
+.welcome{
+    color: #224D56;
+}
+@media only screen and (max-width: 570px) {
+    .textContainer{
+        top: 15%;
+        width: 100%;
+        left: 0;
+    }
+    .vectorContainer{
+        left: 20px;
+    }
+}
+.hide{
+    opacity: 0;
+    display: none;
+}
+.ar{
+    font-family:El Messiri !important;
+}
+.en{
+    font-family:Comfortaa;
+}

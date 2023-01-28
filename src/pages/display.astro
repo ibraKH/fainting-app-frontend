@@ -1,0 +1,33 @@
+---
+import Header from "../components/Header/Header.astro";
+import '../styles/index.css';
+import '../styles/display.css';
+import Validate from "../components/validate/Validate";
+
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<title>Display</title>
+	</head>
+	<body>
+		<Header />
+		<div class="displayContainer">
+			<div class="loginForm">
+				<div class="logingLeftSide">
+					<img src="/images/lift.svg" alt="lift image">
+				</div>
+				<div class="loginRightSide">
+					<div class="formContainer">
+						<h1>تسجيل الدخول</h1>
+						<p>صفحة الدخول للمنصة 
+						للتسجيل الجديد الرجاء التواصل مع الدعم الفني</p>
+						<Validate client:load />
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

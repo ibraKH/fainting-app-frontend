@@ -1,0 +1,33 @@
+---
+import Cases from "../../components/cases/Cases";
+import Header from "../../components/Header/Header.astro";
+import '../../styles/index.css';
+import '../../styles/cases.css';
+
+export function getStaticPaths() {
+  return [
+    {params: {admin: '114'}},
+	{params: {admin: '112'}}
+  ];
+}
+
+const { admin } = Astro.params;
+let cases = [];
+
+
+
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<title>Cases</title>
+	</head>
+	<body>
+		<Header />
+		<div class="casesContainer">
+			<Cases client:load admin={admin} />
+		</div>
+	</body>
+</html>

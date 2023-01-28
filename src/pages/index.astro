@@ -1,0 +1,44 @@
+---
+import Header from "../components/Header/Header.astro";
+import '../styles/index.css';
+
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<title>Project</title>
+	</head>
+	<body>
+		<Header />
+		<div class="parent">
+			<div class="home">
+				<div class="textContainer">
+					<div class="topText">
+						<div class="welcoming">
+							<h1 class="welcome">أهلا وسهلا,</h1>
+						</div>
+						<div class="about">
+							<h3>المنصة تتيح لحاملين أجهزة الاستعلام عن حالات الأغماء
+								من شركات و منظمات عن أستعلام جميع الحالات الخاصة بهم
+								بتاريخ الحالة ورقمها.</h3>
+						</div>
+						<a href="/display"><button>الأستعلام عن الحالات</button></a>
+					</div>
+					<div class="bottomText">
+						<h3>أذا واجهتك مشكلة أو تريد السؤال عن خدمة 
+							الرجاء التواصل مع الدعم الفني</h3>
+						<a href="/support"><button>الدعم الفني</button></a>
+					</div>
+				</div>
+			</div>
+			<div class="wave">
+				<img src="/images/vector.svg" alt="home page vector">
+			</div>
+			<div class="vectorContainer">
+				<img src="/images/lift.svg" alt="lift image">
+			</div>
+		</div>
+	</body>
+</html>

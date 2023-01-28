@@ -1,0 +1,28 @@
+.casesContainer{
+    margin-top: 100px;
+    position: relative;
+}
+.caseParent{
+    width: 450px;
+    height: 120px;
+    background-color: #224D56;
+    margin: 50px auto auto auto;
+    border-radius: 20px;
+    color: #75D9AB;
+    font-family:Comfortaa;
+}
+.caseParent:hover{
+    transform: scale(1.1) !important;
+}
+.caseParent p{
+    text-align: center;
+    padding-top: 5px;
+    color: #e2e2e3;
+}
+.caseParent h1{
+    padding-left: 10px;
+}
+.caseParent h3{
+    padding-left: 10px;
+    margin-top: -15px;
+}

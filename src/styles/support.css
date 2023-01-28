@@ -1,0 +1,30 @@
+.supportParent{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+.leftSupport{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rightSupport{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.supportTime{
+    font-style: normal;
+    color: #75D9AB;
+}
+.leftSupport p{
+    color: #75D9AB;
+}
+.leftSupport img{
+    cursor: pointer;
+}

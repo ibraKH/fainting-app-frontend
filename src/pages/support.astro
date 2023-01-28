@@ -1,0 +1,32 @@
+---
+import Header from "../components/Header/Header.astro";
+import '../styles/index.css';
+import '../styles/support.css';
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<title>Support</title>
+	</head>
+	<body>
+		<Header />
+		<div class="supportParent">
+			<div class="leftSupport">
+				<div class="supportText">
+					<h1 class="en">Support <i class="supportTime">24/7</i></h1>
+					<p class="en">Contact with us</p>
+					<div class="socialLogos">
+						<img src="/images/twitter.svg" alt="twiiter">
+						<img src="/images/instagram.svg" alt="instagram">
+						<img src="/images/whatsapp.svg" alt="whatsapp">
+					</div>
+				</div>
+			</div>
+			<div class="rightSupport">
+				<img src="/images/lift.svg" alt="lift vector">
+			</div>
+		</div>
+	</body>
+</html>
